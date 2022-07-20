@@ -1,0 +1,7 @@
+2 Catégories: (Je propose/ Je recherche) Faire deux codes couleurs pour le "Je propose" et "Je recherche"
+
+- Des catégories de services (3 ou 4)
+- Inscription / Connexion
+- Panier / Mise en relation
+- Condition générale d'utilisation
+- Ranking (étoiles notée sur 5)

@@ -1,0 +1,5 @@
+Back end = Java, PHP, Python
+Front end = HTML CSS Javascript (la chose que j'ai apprendre durant la formation des 5 semaines)
+Base de donnée = SQL, NoSQL
+
+Trello, Jira = Logiciels pour la méthode Scrum ou à utiliser pour des plannings

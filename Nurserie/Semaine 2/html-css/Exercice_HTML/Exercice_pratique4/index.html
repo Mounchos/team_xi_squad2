@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Votre réservation d'hôtel</h1>
+    <h3>* champ obligatoires</h3>
+    <style>
+        body {
+            width: 50%;
+            margin: auto;
+            border: 1px solid gray;
+            padding: 20px 10px;
+            font-family: 'Gill Sans',
+                'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h1,
+        h3 {
+            background: white;
+            text-align: center;
+        }
+
+        label,
+        input,
+        select {
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <form action="get" method="get">
+
+        <label for="nom">Votre nom*:</label></br>
+        <input type="text" name="fname" placeholder="Nom de famille"></br>
+
+        <label for="prenom">Votre prénom*:</label></br>
+        <input type="text" name="name" placeholder="Prénom"></br>
+
+        <label for="num">Votre numéro de téléphone*:</label></br>
+        <input type="text" name="num" placeholder="0601020304"></br>
+
+        <label for="num">Adresse e-mail*:</label></br>
+        <input type="text" name="e-mail"></br>
+
+        <label for="num">Selectionner la ville :</label></br>
+        <select name="ville" id="ville">
+            <option value="ville" selected>Paris</option>
+            <option value="ville">Lille</option>
+            <option value="ville">Bordeaux</option>
+            <option value="ville">Marseille</option>
+            <option value="ville">Nantes</option>
+            <option value="ville">Lyon</option>
+            <option value="ville">La Rochelle</option>
+            <option value="ville">Poitiers</option>
+            <option value="ville">Toulouse</option>
+        </select></br>
+        <label for="date">Date d'arrivée:</label></br>
+        <input type="date" name="date" id="date"></br>
+
+        <label for="nperson">Nombre de personnes*:</label></br>
+        <input type="text" name="nperson"></br>
+
+        <label for="option">Vos options:</label></br>
+
+        <label for="Climatisation">Climatisation</label>
+        <input type="checkbox" name="option" id="option">
+        <label for="Mini Bar">Mini Bar</label>
+        <input type="checkbox" name="mini_bar" id="mini_bar">
+        <label for="Jacuzzi">Jacuzzi</label>
+        <input type="checkbox" name="Jacuzzi" id="Jacuzzi"></br>
+        <textarea name="commentaire" id="commentaire" cols="30" rows="2"
+            placeholder="Ajoutez un commentaire."></textarea></br>
+
+        <label for="CGV">Acceptation des Conditions Générales de Vente (<a href="CGU.html">CGV</a>)*</label></br>
+        <input type="radio" name="cgv" id="cgv">J'accepte
+        <input type="radio" name="cgv" id="cgv">Je refuse</br>
+
+        <input type="submit" value="Envoyer ma demande">
+
+
+    </form>
+
+
+</body>
+
+</html>

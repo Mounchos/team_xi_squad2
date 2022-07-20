@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'audiowideregular';
+    src: url('./police/AudioWide/audiowide-regular-webfont.woff') format('woff2'),
+         url('./police/AudioWide/audiowide-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+    display: flex;
+    text-align: center;
+    position: relative;
+    /*width: 1440px;*/
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background-color: #010954;
+    z-index: 1;
+}
+
+.logo_wun {
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 50;
+}
+
+
+.login {
+
+position: absolute;
+width: 155px;
+right: 15px;
+top: 20px;
+
+}
+
+.log_head {
+    color: #071381;
+}
+
+
+
+
+
+.wun_title{
+    /*width: 825px;
+    height: 136px;*/
+    margin: auto;
+    padding-top: 10px;
+    font-family: 'audiowideregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.form_content{
+    text-align:center;
+}
+/* La forme du login */
+form {
+    margin-top: 140px;
+    width:500px ;
+    height: 755px;
+    text-align:center;
+    display: inline-block;
+    border: 1px solid #f1f1f1;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*  */
+input[type=text],
+input[type=password] {
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 50px;
+    width: 75%;
+    margin: 15px;
+}
+
+.connexion_button {
+    background-color: rgba(35, 31, 198, 0.67);
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 40%;
+    text-align: center;
+}
+
+
+#button_connect1 {
+background-color: #1b375f;
+    border-radius: 95px;
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    width : 440px;
+    height: 55px;
+
+}
+
+
+#button_connect{
+
+    position: relative;
+    margin-top: 20px;
+    top: 0px;
+    width: 300px;
+    height: 40px;
+}
+
+#remember_me{
+
+    margin-left: 150px;
+}
+
+#remember_me1{
+
+    margin-right: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#button_connect:hover{
+    background-color: rgba(123, 167, 221, 0.67) !important;
+    border: rgba(123, 167, 221, 0.67) !important;
+    color : rgb(255, 254, 254) !important;
+}
